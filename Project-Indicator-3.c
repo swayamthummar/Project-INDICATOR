@@ -15,7 +15,7 @@ main()
 	printf("Elements of Array are :-:");
 	for(i=0;i<n;i++)
 	{
-    printf("\n%d",*p+i);
+    printf("\n%d",*(p+i));
 	}
 	printf("\nReversed Array :-:");
     int *r;
